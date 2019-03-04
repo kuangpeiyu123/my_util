@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ ! -f "./.csignore" ]; then
+if [ ! -f "./.ctagsignore" ]; then
     if [ ! -n "$1" ]; then
         ctags -R --languages=c,c++
     else
