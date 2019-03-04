@@ -22,3 +22,5 @@ else
     fi
     cscope -Rbq -I cscope.files
 fi
+
+#cs "! -path './thirdparty'"

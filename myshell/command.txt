@@ -1,0 +1,3 @@
+find ./ -name "*.cpp" -o -name "*.h" "*.hpp" |egrep -v "build*" |xargs wc -l
+
+cs "! -path './thirdparty'"
